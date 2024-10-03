@@ -17,7 +17,6 @@ import java.sql.SQLException;
 @WebServlet("/CustomerChangePasswordServlet")
 public class CustomerChangePasswordServlet extends HttpServlet {
 
-	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String accountNumber = request.getParameter("accountNumber");
