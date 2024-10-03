@@ -17,7 +17,6 @@ import com.Bank.dao.DatabaseConnection;
 
 @WebServlet("/WithdrawServlet")
 public class WithdrawServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
     
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("withdraw.jsp").forward(request, response);
