@@ -17,7 +17,6 @@ import com.Bank.dao.DatabaseConnection;
 
 @WebServlet("/adminLogin")
 public class AdminLoginServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
